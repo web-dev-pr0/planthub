@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <link
+      rel="shortcut icon"
+      href="img/favicon cropped plant.ico"
+      type="image/x-icon"
+    />
+    <title>Plant Lover's Hub</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section class="py-md-3" id="home">
+      <nav class="navbar navbar-expand-md fixed-top mobile-bg">
+        <div class="container">
+          <a href="#" class="navbar-brand"><h2>Plant Lover's Hub</h2></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item lead mx-3">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item lead mx-3">
+                <a href="#cards" class="nav-link" id="services-button"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item lead mx-3">
+                <a href="#learn" class="nav-link">About Plants</a>
+              </li>
+              <li class="nav-item lead mx-3">
+                <a href="#questions" class="nav-link">Questions</a>
+              </li>
+              <li class="nav-item lead mx-3">
+                <a href="#instructors" class="nav-link">Instructors</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Main -->
+    <section class="p-5 main p-5 p-lg-1 pt-lg-5 text-center text-md-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1 class="fw-bold mb-4"><span>Plant </span>Lover's Hub</h1>
+            <p class="lead">
+              Welcome to Plant Lover's Hub, the home for sustainable living
+              enthusiasts. Discover practical tips for eco-friendly living,
+              learn about renewable energy, and join a community dedicated to
+              preserving our planet. Let's build a greener future together.
+            </p>
+            <button class="btn btn-lg plant-now mt-2 px-4">Plant Now!</button>
+          </div>
+          <img
+            class="plant-image img-fluid w-50 rounded-5 d-none d-md-block mx-1"
+            src="img/plantaplant.svg"
+            alt="The Image IN THE BANNER"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="p-5 newsletter-section">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+          <div class="input-group">
+            <input
+              type="email"
+              class="form-control newsletter-input"
+              placeholder="Enter Your Email"
+            />
+            <button class="btn subscribe-button" type="button">
+              Subscribe!
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Cards -->
+    <section class="p-5" id="cards">
+      <div class="container">
+        <div class="row g-4 text-center">
+          <div class="col-md">
+            <div class="card border-0 text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                </div>
+                <h3 class="card-title mb-3">Planting Wellness</h3>
+                <p class="card-text">
+                  Discover the transformative power of gardening. Cultivate
+                  well-being, connection, and serenity through nurturing your
+                  own green sanctuary.
+                </p>
+                <a href="#" class="read-more-btn btn">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card border-0 text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-flower3"></i>
+                </div>
+                <h3 class="card-title mb-3">Grow A Plant</h3>
+                <p class="card-text">
+                  Cultivate greenery with ease. Explore our gardening tips,
+                  kits, and resources <br />for successful, lush plant growth.
+                </p>
+                <a href="#" class="read-more-btn btn">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card border-0 text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-gift-fill"></i>
+                </div>
+                <h3 class="card-title mb-3">Mystery Gift</h3>
+                <p class="card-text">
+                  Unbox excitement with our exclusive "Mystery Gift." Curated
+                  surprises await, adding <br />mystery and joy to your day.
+                </p>
+                <a href="#" class="read-more-btn btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn Section -->
+    <section class="p-5">
+      <div id="learn" class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+              src="img/second-picture.svg"
+              class="img-fluid"
+              alt="The second plant"
+            />
+          </div>
+          <div class="col-md p-5">
+            <h2>Why Should I Grow A Plant?</h2>
+            <p class="lead">
+              Growing plants enriches your life, promotes well-being, and
+              nurtures a greener planet. Discover the benefits today!
+            </p>
+            <p>
+              Cultivating plants fosters a deeper connection with nature,
+              reduces stress, purifies the air, and enhances your surroundings.
+              Join the green revolution now!
+            </p>
+            <a href="#" class="btn mt-3">
+              <i class="bi bi-chevron-right"></i
+              ><span style="color: #ecfcf4">Read More</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5" style="background-color: #24c275">
+      <div id="learn" class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>How To Take Care Of A Plant?</h2>
+            <p class="lead">
+              Nurture your plant with proper watering, sunlight, and love to
+              ensure its healthy growth and vitality.
+            </p>
+            <p>
+              Remember to trim dead or yellowing leaves, rotate your plant for
+              even growth, and repot as it outgrows its container. With patience
+              and care, your indoor garden will flourish.
+            </p>
+            <a
+              href="#"
+              class="btn mt-3 border-0 second-readmore-btn"
+              style="background-color: #04160d; transition: opacity 0.1s ease"
+            >
+              <i class="bi bi-chevron-right"></i
+              ><span style="color: #ecfcf4">Read More</span>
+            </a>
+          </div>
+          <div class="col-md">
+            <img
+              src="img/third-picture.svg"
+              class="img-fluid"
+              alt="The second plant"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Questions Accordion -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                style="background-color: #04160d; color: #ecfcf4"
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+              >
+                Benefits of Having Indoor Plants
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div
+                class="accordion-body"
+                style="background-color: #04160d; color: #ecfcf4"
+              >
+                <strong>Indoor plants</strong> offer numerous benefits,
+                including improved air quality by absorbing carbon dioxide and
+                releasing oxygen. They also increase humidity, reduce stress,
+                enhance mood, and add aesthetic appeal to your living spaces.
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                style="background-color: #04160d; color: #ecfcf4"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                How Different Soil Types Affect Plant Growth
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body" style="background-color: #04160d">
+                <strong>Different soil types</strong>, such as sandy, loamy, or
+                clay soils, affect plant growth in various ways. Sandy soils
+                drain quickly but may lack nutrients, while clay soils retain
+                water but can become compacted. Loamy soils provide ideal
+                conditions for healthy plant growth due to their balanced
+                properties.
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                style="background-color: #04160d; color: #ecfcf4"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                Common Plant Diseases and Treatment
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body" style="background-color: #04160d">
+                <strong>Common plant diseases</strong> include powdery mildew,
+                rust, and blight. To treat these diseases, affected plant parts
+                should be promptly removed and disposed of. Improve air
+                circulation around plants, avoid overwatering, and consider
+                using appropriate fungicides or pesticides as a last resort.
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                style="background-color: #04160d; color: #ecfcf4"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+              >
+                How Plants Adapt to Their Environments in the Wild
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body" style="background-color: #04160d">
+                <strong
+                  >Plants adapt to their wild environments through evolutionary
+                  processes</strong
+                >. They may develop features like drought-resistant roots,
+                specialized leaves, or symbiotic relationships with other
+                organisms. These adaptations enhance their survival in specific
+                ecological niches.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instructors -->
+    <section class="p-5" id="instructors" style="background-color: #24c275">
+      <div class="container">
+        <h2 class="text-center">Our Instructors</h2>
+        <p class="lead text-center mb-5">
+          Our Instructors all have 7+ years working as a Gardener in the
+          industry
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card" style="background-color: #177d4c">
+              <div
+                class="card-body text-center"
+                style="background-color: #177d4c"
+              >
+                <img
+                  src="https://randomuser.me/api/portraits/men/43.jpg"
+                  class="rounded-circle mb-3"
+                  alt="first guy"
+                />
+                <h3 class="card-title mb-3" style="color: #ecfcf4">
+                  Robyn Conley
+                </h3>
+                <p class="card-text">
+                  <strong>Robyn Conley</strong>, a seasoned gardener instructor,
+                  nurtures green enthusiasts with expert knowledge and a
+                  nurturing touch.
+                </p>
+                <a href="#"><i class="bi bi-twitter mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card" style="background-color: #177d4c">
+              <div
+                class="card-body text-center"
+                style="background-color: #177d4c"
+              >
+                <img
+                  src="https://randomuser.me/api/portraits/men/22.jpg"
+                  class="rounded-circle mb-3"
+                  alt="first guy"
+                />
+                <h3 class="card-title mb-3" style="color: #ecfcf4">
+                  Adam Sherman
+                </h3>
+                <p class="card-text">
+                  <strong>Adam Sherman</strong>, the experienced gardening
+                  maestro, shares his green expertise to bloom a world of
+                  vibrant gardens.
+                </p>
+                <a href="#"><i class="bi bi-twitter mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card" style="background-color: #177d4c">
+              <div
+                class="card-body text-center"
+                style="background-color: #177d4c"
+              >
+                <img
+                  src="https://randomuser.me/api/portraits/men/67.jpg"
+                  class="rounded-circle mb-3"
+                  alt="first guy"
+                />
+                <h3 class="card-title mb-3" style="color: #ecfcf4">
+                  Nevaeh Wells
+                </h3>
+                <p class="card-text">
+                  <strong>Nevaeh Wells</strong>, the gardening virtuoso, imparts
+                  invaluable knowledge for cultivating vibrant and lush gardens.
+                </p>
+                <a href="#"><i class="bi bi-twitter mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card" style="background-color: #177d4c">
+              <div
+                class="card-body text-center"
+                style="background-color: #177d4c"
+              >
+                <img
+                  src="https://randomuser.me/api/portraits/women/0.jpg"
+                  class="rounded-circle mb-3"
+                  alt="first guy"
+                />
+                <h3 class="card-title mb-3" style="color: #ecfcf4">
+                  Kirsty Ellis
+                </h3>
+                <p class="card-text">
+                  <strong>Kirsty Ellis</strong>, the green-thumb guru,
+                  cultivates enchanting gardens with passion, creativity, and
+                  horticultural expertise.
+                </p>
+                <a href="#"><i class="bi bi-twitter mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item" style="color: #ecfcf4;">
+                <span class="fw-bold">Main Location:</span>1098 Goldenrose Street Los Angeles
+              </li>
+              <li class="list-group-item" style="color: #ecfcf4;">
+                <span class="fw-bold">Enrollment Phone:</span>{555} 555-5555
+              </li>
+              <li class="list-group-item" style="color: #ecfcf4;">
+                <span class="fw-bold">Instructors Phone:</span>{333} 333-3333
+              </li>
+              <li class="list-group-item" style="color: #ecfcf4;">
+                <span class="fw-bold">Enrollment Email:</span>example@email.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 text-center position-relative" style="background-color: #177d4c;">
+      <div class="container">
+        <p class="lead">Copyright &copy; Plant Lover's Hub</p>
+        <a href="#home" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
